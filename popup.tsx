@@ -29,7 +29,7 @@ function IndexPopup() {
 
   return (
     <div
-      className={`w-[640] h-[480] flex flex-col items-center font-mono justify-center space-y-4 ${cssCode}`}>
+      className={`w-[640] h-[600] flex flex-col items-center font-mono justify-center space-y-4 ${cssCode}`}>
       <h1 className="font-bold text-center text-3xl drop-shadow-2xl rounded-lg bg-gradient-to-r text-white from-green-700 to-emerald-900 border border-gray-600 p-2">
         TailwindCss Gradient Generator
       </h1>
@@ -82,6 +82,15 @@ function IndexPopup() {
           navigator.clipboard.writeText(cssCode)
         }}>
         Copy tailwind classes to clipboard
+      </button>
+
+      <button className="font-semibold text-base bg-teal-900 text-white p-2 border border-gray-600 rounded lg hover:bg-teal-700 active:bg-teal-500">
+        <a
+          href="https://www.buymeacoffee.com/burakhanunver"
+          target="_blank"
+          rel="noopener noreferrer">
+          If you like the extension you can buy me a coffee from here :)
+        </a>
       </button>
     </div>
   )
