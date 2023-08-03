@@ -1,7 +1,7 @@
 {
   "name": "tailwind-gradient-picker",
   "displayName": "Tailwind gradient picker",
-  "version": "0.0.1",
+  "version": "1.0",
   "description": "This extension helps you to see tailwind gradients and generates tailwindcss code",
   "author": "Burakhan ünver",
   "scripts": {

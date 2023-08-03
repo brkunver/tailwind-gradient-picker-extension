@@ -89,7 +89,7 @@ function IndexPopup() {
           href="https://www.buymeacoffee.com/burakhanunver"
           target="_blank"
           rel="noopener noreferrer">
-          If you like the extension you can buy me a coffee from here :)
+          ☕ If you like the extension you can buy me a coffee from here :)
         </a>
       </button>
     </div>
