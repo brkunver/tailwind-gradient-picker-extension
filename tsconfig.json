@@ -7,7 +7,7 @@
     ".plasmo/index.d.ts",
     "./**/*.ts",
     "./**/*.tsx"
-  ],
+, "util/colors.js"  ],
   "compilerOptions": {
     "paths": {
       "~*": [
